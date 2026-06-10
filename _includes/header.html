@@ -1,0 +1,45 @@
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a href="/" class="site-header__brand" aria-label="{{ site.title }}">
+      <span class="brand-icon">🏗️</span>
+      <span class="brand-text"><strong>LC</strong> Contratistas</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Navegacion principal">
+      {%- for item in site.nav -%}
+        {%- assign current = false -%}
+        {%- if page.url == item.url -%}{%- assign current = true -%}{%- endif -%}
+        <a href="{{ item.url }}"{% if current %} aria-current="page"{% endif %}{% if item.i18n %} data-i18n="{{ item.i18n }}"{% endif %}>{{ item.label }}</a>
+      {%- endfor -%}
+    </nav>
+
+    <div class="lang-toggle" data-lang-toggle role="group" aria-label="Cambiar idioma">
+      <button type="button" class="lang-toggle__btn is-active" data-lang="es" aria-pressed="true">ES</button>
+      <span class="lang-toggle__sep" aria-hidden="true">|</span>
+      <button type="button" class="lang-toggle__btn" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+
+    <a href="https://wa.me/{{ site.contact.whatsapp }}?text={{ site.whatsapp_messages.default | url_encode }}"
+       class="btn btn--accent header-cta" target="_blank" rel="noopener"
+       data-i18n="hero.cta">
+      Solicitar servicio
+    </a>
+
+    <button class="site-nav__toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>☰</button>
+  </div>
+
+  <nav class="site-nav--mobile container" aria-label="Navegacion movil" data-nav-mobile>
+    {%- for item in site.nav -%}
+      <a href="{{ item.url }}"{% if item.i18n %} data-i18n="{{ item.i18n }}"{% endif %}>{{ item.label }}</a>
+    {%- endfor -%}
+    <a href="https://wa.me/{{ site.contact.whatsapp }}?text={{ site.whatsapp_messages.default | url_encode }}"
+       class="btn btn--accent" target="_blank" rel="noopener" data-i18n="hero.cta">
+      Solicitar servicio
+    </a>
+    <div class="lang-toggle lang-toggle--mobile" data-lang-toggle role="group" aria-label="Cambiar idioma">
+      <button type="button" class="lang-toggle__btn is-active" data-lang="es" aria-pressed="true">ES</button>
+      <span class="lang-toggle__sep" aria-hidden="true">|</span>
+      <button type="button" class="lang-toggle__btn" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </nav>
+</header>

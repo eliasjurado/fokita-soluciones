@@ -1,0 +1,102 @@
+---
+layout: home
+title: LC Contratistas — Servicios profesionales del hogar
+description: Profesionales confiables para reparacion, mantenimiento y mejoras del hogar. Plomeria, electricidad, pintura, carpinteria y mas.
+---
+
+<section class="hero">
+  <div class="container">
+    <h1 data-i18n="hero.title">Tu hogar en buenas manos</h1>
+    <p data-i18n="hero.subtitle">Profesionales confiables para reparacion, mantenimiento y mejoras del hogar. Reserva en minutos.</p>
+    <div class="hero__actions">
+      <a href="https://wa.me/{{ site.contact.whatsapp }}?text={{ site.whatsapp_messages.hero | url_encode }}"
+         class="btn btn--accent btn--lg" target="_blank" rel="noopener" data-i18n="hero.cta">
+        Solicitar servicio
+      </a>
+      <a href="/services/" class="btn btn--outline btn--lg" data-i18n="hero.cta_secondary">
+        Ver servicios
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="text-center" data-i18n="how.title">Como funciona</h2>
+    <div class="steps-grid">
+      <div class="step">
+        <div class="step__number">1</div>
+        <h3 data-i18n="how.step1_title">Describe tu tarea</h3>
+        <p data-i18n="how.step1_desc">Cuentanos que necesitas: una reparacion, instalacion, limpieza o cualquier trabajo para tu hogar.</p>
+      </div>
+      <div class="step">
+        <div class="step__number">2</div>
+        <h3 data-i18n="how.step2_title">Te contactamos</h3>
+        <p data-i18n="how.step2_desc">Un profesional verificado te contacta por WhatsApp con un presupuesto claro y sin compromisos.</p>
+      </div>
+      <div class="step">
+        <div class="step__number">3</div>
+        <h3 data-i18n="how.step3_title">Trabajo realizado</h3>
+        <p data-i18n="how.step3_desc">El profesional llega a tu hogar, realiza el trabajo y solo pagas cuando estas satisfecho.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--light">
+  <div class="container">
+    <h2 class="text-center" data-i18n="services_section.title">Nuestros servicios</h2>
+    <p class="text-center text-muted" data-i18n="services_section.subtitle">Profesionales verificados para cada necesidad de tu hogar</p>
+    <div class="services-grid">
+      {%- for servicio in site.data.servicios -%}
+      <div class="service-card">
+        <div class="service-card__icon">{{ servicio.icon }}</div>
+        <h3 data-i18n-en-html="{{ servicio.nombre.en }}">{{ servicio.nombre.es }}</h3>
+        <p data-i18n-en="{{ servicio.descripcion.en }}">{{ servicio.descripcion.es }}</p>
+        <span class="service-card__price" data-i18n-en="{{ servicio.precio_desde.en }}">{{ servicio.precio_desde.es }}</span>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="text-center" data-i18n="trust.title">Por que elegirnos</h2>
+    <div class="trust-grid">
+      <div class="trust-item">
+        <div class="trust-item__icon">✅</div>
+        <h3 data-i18n="trust.point1_title">Profesionales verificados</h3>
+        <p data-i18n="trust.point1_desc">Cada tecnico pasa por un proceso de verificacion de identidad y referencias.</p>
+      </div>
+      <div class="trust-item">
+        <div class="trust-item__icon">💰</div>
+        <h3 data-i18n="trust.point2_title">Precios transparentes</h3>
+        <p data-i18n="trust.point2_desc">Presupuesto claro antes de empezar. Sin cargos ocultos ni sorpresas.</p>
+      </div>
+      <div class="trust-item">
+        <div class="trust-item__icon">⭐</div>
+        <h3 data-i18n="trust.point3_title">Garantia de satisfaccion</h3>
+        <p data-i18n="trust.point3_desc">Si no estas conforme, volvemos a realizar el trabajo sin costo adicional.</p>
+      </div>
+      <div class="trust-item">
+        <div class="trust-item__icon">📱</div>
+        <h3 data-i18n="trust.point4_title">Atencion por WhatsApp</h3>
+        <p data-i18n="trust.point4_desc">Comunicacion directa y rapida. Responde en minutos, no en dias.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2 data-i18n="cta_section.title">Listo para empezar?</h2>
+    <p data-i18n="cta_section.subtitle">Escribenos por WhatsApp y recibe un presupuesto en minutos.</p>
+    <a href="https://wa.me/{{ site.contact.whatsapp }}?text={{ site.whatsapp_messages.default | url_encode }}"
+       class="btn btn--lg" target="_blank" rel="noopener" data-i18n="cta_section.button">
+      Escribir por WhatsApp
+    </a>
+  </div>
+</section>
+
+<script src="/assets/js/i18n.js" defer></script>

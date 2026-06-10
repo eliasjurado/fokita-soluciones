@@ -1,0 +1,95 @@
+- id: plomeria
+  icon: "🔧"
+  nombre:
+    es: "Plomeria"
+    en: "Plumbing"
+  descripcion:
+    es: "Reparacion de fugas, instalacion de griferia, destape de tuberias y mantenimiento de banos y cocinas."
+    en: "Leak repair, faucet installation, pipe unclogging and bathroom and kitchen maintenance."
+  precio_desde:
+    es: "Desde S/ 50"
+    en: "From S/ 50"
+
+- id: electricidad
+  icon: "⚡"
+  nombre:
+    es: "Electricidad"
+    en: "Electrical"
+  descripcion:
+    es: "Instalaciones electricas, reparacion de cortocircuitos, instalacion de luminarias y tomacorrientes."
+    en: "Electrical installations, short circuit repair, lighting and outlet installation."
+  precio_desde:
+    es: "Desde S/ 60"
+    en: "From S/ 60"
+
+- id: pintura
+  icon: "🎨"
+  nombre:
+    es: "Pintura"
+    en: "Painting"
+  descripcion:
+    es: "Pintura interior y exterior, acabados decorativos, impermeabilizacion de muros."
+    en: "Interior and exterior painting, decorative finishes, wall waterproofing."
+  precio_desde:
+    es: "Desde S/ 8/m2"
+    en: "From S/ 8/m2"
+
+- id: carpinteria
+  icon: "🪚"
+  nombre:
+    es: "Carpinteria"
+    en: "Carpentry"
+  descripcion:
+    es: "Fabricacion y reparacion de muebles, puertas, closets, cocinas integrales y acabados en madera."
+    en: "Furniture making and repair, doors, closets, integrated kitchens and wood finishes."
+  precio_desde:
+    es: "Desde S/ 100"
+    en: "From S/ 100"
+
+- id: limpieza
+  icon: "✨"
+  nombre:
+    es: "Limpieza"
+    en: "Cleaning"
+  descripcion:
+    es: "Limpieza profunda de hogares, oficinas, post-obra, ventanas y mantenimiento periodico."
+    en: "Deep cleaning for homes, offices, post-construction, windows and periodic maintenance."
+  precio_desde:
+    es: "Desde S/ 80"
+    en: "From S/ 80"
+
+- id: mudanzas
+  icon: "📦"
+  nombre:
+    es: "Mudanzas"
+    en: "Moving"
+  descripcion:
+    es: "Empaquetado, transporte y reubicacion de muebles y enseres. Servicio local y provincial."
+    en: "Packing, transport and relocation of furniture. Local and provincial service."
+  precio_desde:
+    es: "Desde S/ 150"
+    en: "From S/ 150"
+
+- id: ensamble
+  icon: "🔩"
+  nombre:
+    es: "Ensamblaje de muebles"
+    en: "Furniture assembly"
+  descripcion:
+    es: "Armado de muebles modulares, estantes, camas, escritorios y mobiliario de oficina."
+    en: "Modular furniture assembly, shelves, beds, desks and office furniture."
+  precio_desde:
+    es: "Desde S/ 40"
+    en: "From S/ 40"
+
+- id: mantenimiento
+  icon: "🏠"
+  nombre:
+    es: "Mantenimiento general"
+    en: "General maintenance"
+  descripcion:
+    es: "Reparaciones menores, colgado de cuadros, instalacion de accesorios y tareas del hogar."
+    en: "Minor repairs, hanging pictures, accessory installation and household tasks."
+  precio_desde:
+    es: "Desde S/ 40"
+    en: "From S/ 40"

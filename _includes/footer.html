@@ -1,0 +1,68 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div>
+        <h4><span class="brand-icon-sm">🏗️</span> {{ site.title }}</h4>
+        <p class="site-footer__description" data-i18n="footer.tagline">
+          Tu hogar en buenas manos.
+        </p>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer.contact_label">Contacto</h4>
+        <p class="site-footer__list">
+          <a href="https://wa.me/{{ site.contact.whatsapp }}?text={{ site.whatsapp_messages.footer | url_encode }}" target="_blank" rel="noopener">{{ site.contact.phone }}</a><br>
+          <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a><br>
+          {{ site.contact.city }}
+        </p>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer.links_label">Enlaces</h4>
+        <p class="site-footer__list">
+          {%- for item in site.nav -%}
+            <a href="{{ item.url }}"{% if item.i18n %} data-i18n="{{ item.i18n }}"{% endif %}>{{ item.label }}</a><br>
+          {%- endfor -%}
+        </p>
+      </div>
+    </div>
+
+    <div class="site-footer__bottom">
+      <span>&copy; {{ 'now' | date: '%Y' }} {{ site.author.name }}. <span data-i18n="footer.rights">Todos los derechos reservados.</span></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function() {
+    var btn = document.querySelector('[data-nav-toggle]');
+    var menu = document.querySelector('[data-nav-mobile]');
+    if (!btn || !menu) return;
+    function closeMenu() {
+      menu.classList.remove('is-open');
+      btn.setAttribute('aria-expanded', 'false');
+      btn.textContent = '☰';
+    }
+    btn.addEventListener('click', function() {
+      var open = menu.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', String(open));
+      btn.textContent = open ? '✕' : '☰';
+    });
+    document.addEventListener('click', function(event) {
+      if (!menu.classList.contains('is-open')) return;
+      if (menu.contains(event.target) || btn.contains(event.target)) return;
+      closeMenu();
+    });
+    menu.addEventListener('click', function(event) {
+      var link = event.target.closest('a');
+      if (!link) return;
+      closeMenu();
+    });
+    document.addEventListener('keydown', function(event) {
+      if (event.key !== 'Escape') return;
+      if (!menu.classList.contains('is-open')) return;
+      closeMenu();
+      btn.focus();
+    });
+  })();
+</script>

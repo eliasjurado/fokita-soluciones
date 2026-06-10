@@ -1,0 +1,37 @@
+$ink:          #1a2744;
+$accent:       #e8720c;
+$accent-hover: #d0650a;
+$muted:        #6b7280;
+$bg:           #ffffff;
+$bg-light:     #f8f9fa;
+$bg-dark:      #1a2744;
+$line:         #e5e7eb;
+$success:      #25d366;
+
+$font-sans: 'Inter', 'Helvetica Neue', Helvetica, Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+
+$container-max: 1140px;
+$radius: 8px;
+$radius-sm: 6px;
+$radius-lg: 12px;
+
+$s-1: 0.25rem;
+$s-2: 0.5rem;
+$s-3: 0.75rem;
+$s-4: 1rem;
+$s-5: 1.5rem;
+$s-6: 2rem;
+$s-7: 3rem;
+$s-8: 4rem;
+$s-9: 6rem;
+
+$bp-sm: 480px;
+$bp-md: 768px;
+$bp-lg: 1024px;
+
+$ease: cubic-bezier(0.4, 0, 0.2, 1);
+$dur: 220ms;
+
+$shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+$shadow: 0 4px 16px rgba(0,0,0,0.1);
+$shadow-lg: 0 10px 40px rgba(0,0,0,0.12);

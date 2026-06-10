@@ -1,0 +1,67 @@
+# LC Contratistas — Servicios profesionales del hogar
+# https://lccontratistas.com
+# Build automatico en GitHub Pages al pushear a main.
+
+title: LC Contratistas
+tagline: Tu hogar en buenas manos.
+description: >-
+  Servicios profesionales de reparacion, mantenimiento y mejoras para el hogar.
+  Plomeria, electricidad, pintura, carpinteria, limpieza y mas.
+url: 'https://lccontratistas.com'
+author:
+  name: Jhonatan Lopez Carrion
+  email: contacto@lccontratistas.com
+locale: es_PE
+timezone: America/Lima
+
+brand:
+  primary:   '#1a2744'
+  accent:    '#e8720c'
+  muted:     '#6b7280'
+  white:     '#ffffff'
+  light:     '#f8f9fa'
+  ink:       '#1a2744'
+chrome_mobile_color: '#1a2744'
+
+contact:
+  name: Jhonatan Lopez Carrion
+  email: contacto@lccontratistas.com
+  phone: '+51 976 223 755'
+  whatsapp: '51976223755'
+  city: Lima, Peru
+
+whatsapp_messages:
+  default:  'Hola LC Contratistas, vi su web y me gustaria solicitar un servicio.'
+  hero:     'Hola LC Contratistas, necesito un profesional para mi hogar.'
+  contact:  'Hola LC Contratistas, les escribo desde la pagina de contacto.'
+  footer:   'Hola LC Contratistas, me gustaria mas informacion sobre sus servicios.'
+
+nav:
+  - { label: Inicio,     url: /,          i18n: nav.home }
+  - { label: Servicios,  url: /services/, i18n: nav.services }
+  - { label: Nosotros,   url: /about/,    i18n: nav.about }
+  - { label: Contacto,   url: /contact/,  i18n: nav.contact }
+
+defaults:
+  - scope: { path: "", type: pages }
+    values: { layout: page }
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+encoding: "utf-8"
+markdown: kramdown
+permalink: /:slug/
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+port: 4000
+host: 0.0.0.0

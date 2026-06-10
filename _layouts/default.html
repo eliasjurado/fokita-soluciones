@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="{{ site.locale | default: 'es' | slice: 0, 2 }}">
+<head>
+  {%- include seo.html -%}
+  {%- seo title=false -%}
+</head>
+<body>
+  {%- include header.html -%}
+  <main>{{ content }}</main>
+  {%- include footer.html -%}
+  {%- include whatsapp-float.html -%}
+</body>
+</html>

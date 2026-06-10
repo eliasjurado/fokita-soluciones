@@ -1,0 +1,180 @@
+nav:
+  home:
+    es: "Inicio"
+    en: "Home"
+  services:
+    es: "Servicios"
+    en: "Services"
+  about:
+    es: "Nosotros"
+    en: "About"
+  contact:
+    es: "Contacto"
+    en: "Contact"
+
+toggle:
+  aria_label:
+    es: "Cambiar idioma"
+    en: "Change language"
+
+hero:
+  title:
+    es: "Tu hogar en buenas manos"
+    en: "Your home in good hands"
+  subtitle:
+    es: "Profesionales confiables para reparacion, mantenimiento y mejoras del hogar. Reserva en minutos."
+    en: "Trusted professionals for home repair, maintenance and improvements. Book in minutes."
+  cta:
+    es: "Solicitar servicio"
+    en: "Request service"
+  cta_secondary:
+    es: "Ver servicios"
+    en: "View services"
+
+how:
+  title:
+    es: "Como funciona"
+    en: "How it works"
+  step1_title:
+    es: "Describe tu tarea"
+    en: "Describe your task"
+  step1_desc:
+    es: "Cuentanos que necesitas: una reparacion, instalacion, limpieza o cualquier trabajo para tu hogar."
+    en: "Tell us what you need: a repair, installation, cleaning or any job for your home."
+  step2_title:
+    es: "Te contactamos"
+    en: "We contact you"
+  step2_desc:
+    es: "Un profesional verificado te contacta por WhatsApp con un presupuesto claro y sin compromisos."
+    en: "A verified professional contacts you on WhatsApp with a clear, no-obligation quote."
+  step3_title:
+    es: "Trabajo realizado"
+    en: "Job done"
+  step3_desc:
+    es: "El profesional llega a tu hogar, realiza el trabajo y solo pagas cuando estas satisfecho."
+    en: "The professional comes to your home, does the job and you only pay when satisfied."
+
+services_section:
+  title:
+    es: "Nuestros servicios"
+    en: "Our services"
+  subtitle:
+    es: "Profesionales verificados para cada necesidad de tu hogar"
+    en: "Verified professionals for every home need"
+
+trust:
+  title:
+    es: "Por que elegirnos"
+    en: "Why choose us"
+  point1_title:
+    es: "Profesionales verificados"
+    en: "Verified professionals"
+  point1_desc:
+    es: "Cada tecnico pasa por un proceso de verificacion de identidad y referencias."
+    en: "Every technician goes through identity verification and reference checks."
+  point2_title:
+    es: "Precios transparentes"
+    en: "Transparent pricing"
+  point2_desc:
+    es: "Presupuesto claro antes de empezar. Sin cargos ocultos ni sorpresas."
+    en: "Clear quote before starting. No hidden fees or surprises."
+  point3_title:
+    es: "Garantia de satisfaccion"
+    en: "Satisfaction guarantee"
+  point3_desc:
+    es: "Si no estas conforme, volvemos a realizar el trabajo sin costo adicional."
+    en: "If you are not satisfied, we redo the job at no extra cost."
+  point4_title:
+    es: "Atencion por WhatsApp"
+    en: "WhatsApp support"
+  point4_desc:
+    es: "Comunicacion directa y rapida. Responde en minutos, no en dias."
+    en: "Direct and fast communication. Response in minutes, not days."
+
+cta_section:
+  title:
+    es: "Listo para empezar?"
+    en: "Ready to get started?"
+  subtitle:
+    es: "Escribenos por WhatsApp y recibe un presupuesto en minutos."
+    en: "Message us on WhatsApp and get a quote in minutes."
+  button:
+    es: "Escribir por WhatsApp"
+    en: "Message on WhatsApp"
+
+about_page:
+  title:
+    es: "Sobre nosotros"
+    en: "About us"
+  intro:
+    es: "LC Contratistas es una empresa de servicios para el hogar fundada por Jhonatan Lopez Carrion con una mision clara: conectar hogares con profesionales confiables que resuelvan sus necesidades de manera rapida, transparente y con garantia."
+    en: "LC Contratistas is a home services company founded by Jhonatan Lopez Carrion with a clear mission: connecting homes with trusted professionals who solve their needs quickly, transparently and with a guarantee."
+  mission_title:
+    es: "Nuestra mision"
+    en: "Our mission"
+  mission_text:
+    es: "Facilitar el acceso a servicios profesionales del hogar de alta calidad, con atencion personalizada y precios justos. Creemos que cada hogar merece estar en buenas manos."
+    en: "Facilitating access to high-quality professional home services, with personalized attention and fair prices. We believe every home deserves to be in good hands."
+  values_title:
+    es: "Nuestros valores"
+    en: "Our values"
+  value1:
+    es: "Honestidad"
+    en: "Honesty"
+  value2:
+    es: "Calidad"
+    en: "Quality"
+  value3:
+    es: "Puntualidad"
+    en: "Punctuality"
+  value4:
+    es: "Compromiso"
+    en: "Commitment"
+
+contact_page:
+  title:
+    es: "Contacto"
+    en: "Contact"
+  subtitle:
+    es: "Estamos listos para ayudarte. Elige el canal que prefieras."
+    en: "We are ready to help. Choose your preferred channel."
+  whatsapp_title:
+    es: "WhatsApp (respuesta inmediata)"
+    en: "WhatsApp (instant reply)"
+  whatsapp_desc:
+    es: "Escribenos directamente para una respuesta rapida."
+    en: "Write to us directly for a quick response."
+  whatsapp_button:
+    es: "Abrir WhatsApp"
+    en: "Open WhatsApp"
+  phone_title:
+    es: "Telefono"
+    en: "Phone"
+  email_title:
+    es: "Correo electronico"
+    en: "Email"
+  location_title:
+    es: "Ubicacion"
+    en: "Location"
+
+services_page:
+  title:
+    es: "Nuestros servicios"
+    en: "Our services"
+  subtitle:
+    es: "Soluciones profesionales para cada necesidad de tu hogar"
+    en: "Professional solutions for every home need"
+
+footer:
+  contact_label:
+    es: "Contacto"
+    en: "Contact"
+  links_label:
+    es: "Enlaces"
+    en: "Links"
+  rights:
+    es: "Todos los derechos reservados."
+    en: "All rights reserved."
+  tagline:
+    es: "Tu hogar en buenas manos."
+    en: "Your home in good hands."
