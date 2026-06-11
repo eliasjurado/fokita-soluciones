@@ -2,7 +2,7 @@
 layout: page
 title: Contacto
 permalink: /contact/
-description: Contacta a LC Contratistas. WhatsApp, telefono y correo electronico. Atencion inmediata.
+description: Contacta a Fokita Soluciones. WhatsApp, telefono y correo electronico. Atencion inmediata.
 ---
 
 <h1 data-i18n="contact_page.title">Contacto</h1>
@@ -10,7 +10,7 @@ description: Contacta a LC Contratistas. WhatsApp, telefono y correo electronico
 
 <div class="contact-grid">
   <div class="contact-card">
-    <div class="contact-card__icon">📱</div>
+    <div class="contact-card__icon"><span class="material-symbols-rounded">chat</span></div>
     <h3 data-i18n="contact_page.whatsapp_title">WhatsApp (respuesta inmediata)</h3>
     <p data-i18n="contact_page.whatsapp_desc">Escribenos directamente para una respuesta rapida.</p>
     <a href="https://wa.me/{{ site.contact.whatsapp }}?text={{ site.whatsapp_messages.contact | url_encode }}"
@@ -20,19 +20,19 @@ description: Contacta a LC Contratistas. WhatsApp, telefono y correo electronico
   </div>
 
   <div class="contact-card">
-    <div class="contact-card__icon">📞</div>
+    <div class="contact-card__icon"><span class="material-symbols-rounded">call</span></div>
     <h3 data-i18n="contact_page.phone_title">Telefono</h3>
     <p><a href="tel:{{ site.contact.phone }}">{{ site.contact.phone }}</a></p>
   </div>
 
   <div class="contact-card">
-    <div class="contact-card__icon">✉️</div>
+    <div class="contact-card__icon"><span class="material-symbols-rounded">mail</span></div>
     <h3 data-i18n="contact_page.email_title">Correo electronico</h3>
     <p><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></p>
   </div>
 
   <div class="contact-card">
-    <div class="contact-card__icon">📍</div>
+    <div class="contact-card__icon"><span class="material-symbols-rounded">location_on</span></div>
     <h3 data-i18n="contact_page.location_title">Ubicacion</h3>
     <p>{{ site.contact.city }}</p>
   </div>

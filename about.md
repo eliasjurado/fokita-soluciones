@@ -2,12 +2,12 @@
 layout: page
 title: Sobre nosotros
 permalink: /about/
-description: Conoce LC Contratistas. Profesionales confiables para el mantenimiento y mejoras de tu hogar.
+description: Conoce Fokita Soluciones. Profesionales confiables para el mantenimiento y mejoras de tu hogar.
 ---
 
 <h1 data-i18n="about_page.title">Sobre nosotros</h1>
 
-<p data-i18n="about_page.intro">LC Contratistas es una empresa de servicios para el hogar fundada por Jhonatan Lopez Carrion con una mision clara: conectar hogares con profesionales confiables que resuelvan sus necesidades de manera rapida, transparente y con garantia.</p>
+<p data-i18n="about_page.intro">Fokita Soluciones es una empresa de servicios para el hogar fundada por Jhonatan Lopez Carrion con una mision clara: conectar hogares con profesionales confiables que resuelvan sus necesidades de manera rapida, transparente y con garantia.</p>
 
 <h2 data-i18n="about_page.mission_title">Nuestra mision</h2>
 <p data-i18n="about_page.mission_text">Facilitar el acceso a servicios profesionales del hogar de alta calidad, con atencion personalizada y precios justos. Creemos que cada hogar merece estar en buenas manos.</p>
@@ -15,19 +15,19 @@ description: Conoce LC Contratistas. Profesionales confiables para el mantenimie
 <h2 data-i18n="about_page.values_title">Nuestros valores</h2>
 <div class="values-grid">
   <div class="value-item">
-    <div class="value-item__icon">🤝</div>
+    <div class="value-item__icon"><span class="material-symbols-rounded">handshake</span></div>
     <h4 data-i18n="about_page.value1">Honestidad</h4>
   </div>
   <div class="value-item">
-    <div class="value-item__icon">⭐</div>
+    <div class="value-item__icon"><span class="material-symbols-rounded">workspace_premium</span></div>
     <h4 data-i18n="about_page.value2">Calidad</h4>
   </div>
   <div class="value-item">
-    <div class="value-item__icon">⏰</div>
+    <div class="value-item__icon"><span class="material-symbols-rounded">schedule</span></div>
     <h4 data-i18n="about_page.value3">Puntualidad</h4>
   </div>
   <div class="value-item">
-    <div class="value-item__icon">💪</div>
+    <div class="value-item__icon"><span class="material-symbols-rounded">volunteer_activism</span></div>
     <h4 data-i18n="about_page.value4">Compromiso</h4>
   </div>
 </div>

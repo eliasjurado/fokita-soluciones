@@ -1,4 +1,4 @@
-# LC Contratistas
+# Fokita Soluciones
 
 Sitio web de servicios profesionales para el hogar. Construido con Jekyll y publicado en GitHub Pages.
 

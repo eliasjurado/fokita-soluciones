@@ -1,6 +1,6 @@
 ---
 layout: home
-title: LC Contratistas — Servicios profesionales del hogar
+title: Fokita Soluciones — Servicios profesionales del hogar
 description: Profesionales confiables para reparacion, mantenimiento y mejoras del hogar. Plomeria, electricidad, pintura, carpinteria y mas.
 ---
 
@@ -50,7 +50,7 @@ description: Profesionales confiables para reparacion, mantenimiento y mejoras d
     <div class="services-grid">
       {%- for servicio in site.data.servicios -%}
       <div class="service-card">
-        <div class="service-card__icon">{{ servicio.icon }}</div>
+        <div class="service-card__icon"><span class="material-symbols-rounded">{{ servicio.icon }}</span></div>
         <h3 data-i18n-en-html="{{ servicio.nombre.en }}">{{ servicio.nombre.es }}</h3>
         <p data-i18n-en="{{ servicio.descripcion.en }}">{{ servicio.descripcion.es }}</p>
         <span class="service-card__price" data-i18n-en="{{ servicio.precio_desde.en }}">{{ servicio.precio_desde.es }}</span>
@@ -65,22 +65,22 @@ description: Profesionales confiables para reparacion, mantenimiento y mejoras d
     <h2 class="text-center" data-i18n="trust.title">Por que elegirnos</h2>
     <div class="trust-grid">
       <div class="trust-item">
-        <div class="trust-item__icon">✅</div>
+        <div class="trust-item__icon"><span class="material-symbols-rounded">verified</span></div>
         <h3 data-i18n="trust.point1_title">Profesionales verificados</h3>
         <p data-i18n="trust.point1_desc">Cada tecnico pasa por un proceso de verificacion de identidad y referencias.</p>
       </div>
       <div class="trust-item">
-        <div class="trust-item__icon">💰</div>
+        <div class="trust-item__icon"><span class="material-symbols-rounded">savings</span></div>
         <h3 data-i18n="trust.point2_title">Precios transparentes</h3>
         <p data-i18n="trust.point2_desc">Presupuesto claro antes de empezar. Sin cargos ocultos ni sorpresas.</p>
       </div>
       <div class="trust-item">
-        <div class="trust-item__icon">⭐</div>
+        <div class="trust-item__icon"><span class="material-symbols-rounded">workspace_premium</span></div>
         <h3 data-i18n="trust.point3_title">Garantia de satisfaccion</h3>
         <p data-i18n="trust.point3_desc">Si no estas conforme, volvemos a realizar el trabajo sin costo adicional.</p>
       </div>
       <div class="trust-item">
-        <div class="trust-item__icon">📱</div>
+        <div class="trust-item__icon"><span class="material-symbols-rounded">forum</span></div>
         <h3 data-i18n="trust.point4_title">Atencion por WhatsApp</h3>
         <p data-i18n="trust.point4_desc">Comunicacion directa y rapida. Responde en minutos, no en dias.</p>
       </div>

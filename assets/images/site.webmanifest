@@ -1,0 +1,11 @@
+{
+  "name": "Fokita Soluciones",
+  "short_name": "Fokita",
+  "icons": [
+    { "src": "/assets/images/favicon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/assets/images/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "theme_color": "#1a2744",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

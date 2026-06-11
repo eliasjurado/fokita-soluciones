@@ -21,8 +21,9 @@
 }
 .btn--accent {
   background: $accent;
-  color: #fff;
-  &:hover { background: $accent-hover; color: #fff; }
+  color: $on-accent;
+  font-weight: 700;
+  &:hover { background: $accent-hover; color: $on-accent; }
 }
 .btn--outline {
   background: transparent;
@@ -66,9 +67,26 @@
   text-decoration: none;
   &:hover { color: $accent; }
 }
-.brand-icon { font-size: 1.4rem; }
-.brand-icon-sm { font-size: 1rem; }
+.brand-icon { height: 1.7rem; width: auto; display: block; }
+.brand-icon-sm { height: 1.2rem; width: auto; display: inline-block; vertical-align: middle; }
 .brand-text strong { font-weight: 800; }
+
+// ── Material Symbols ───────────────────────────────────────────────────────────
+.material-symbols-rounded {
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+  vertical-align: middle;
+}
 
 .site-nav {
   display: flex;
@@ -198,7 +216,7 @@
   height: 56px;
   border-radius: 50%;
   background: $accent;
-  color: #fff;
+  color: $on-accent;
   font-size: 1.5rem;
   font-weight: 800;
   margin-bottom: $s-4;
@@ -226,7 +244,8 @@
   }
 }
 .service-card__icon {
-  font-size: 2.2rem;
+  font-size: 2.6rem;
+  color: $ink;
   margin-bottom: $s-3;
 }
 .service-card h3 { margin-bottom: $s-2; font-size: 1.15rem; }
@@ -251,7 +270,8 @@
   border: 1px solid $line;
 }
 .trust-item__icon {
-  font-size: 2rem;
+  font-size: 2.4rem;
+  color: $accent;
   margin-bottom: $s-3;
 }
 .trust-item h3 { font-size: 1.05rem; margin-bottom: $s-2; }
@@ -262,13 +282,13 @@
   text-align: center;
   padding: $s-8 $s-5;
   background: $accent;
-  color: #fff;
-  h2 { color: #fff; }
-  p { color: rgba(255,255,255,0.9); font-size: 1.1rem; margin-bottom: $s-5; }
+  color: $on-accent;
+  h2 { color: $on-accent; }
+  p { color: rgba(26,39,68,0.85); font-size: 1.1rem; margin-bottom: $s-5; }
   .btn {
-    background: #fff;
-    color: $accent;
-    &:hover { background: $bg-light; color: $accent; }
+    background: $ink;
+    color: #fff;
+    &:hover { background: lighten($ink, 12%); color: #fff; }
   }
 }
 
@@ -300,7 +320,8 @@
   }
 }
 .contact-card__icon {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
+  color: $ink;
   margin-bottom: $s-3;
 }
 .contact-card h3 { font-size: 1.1rem; margin-bottom: $s-2; }
@@ -320,7 +341,8 @@
   border-radius: $radius-lg;
 }
 .value-item__icon {
-  font-size: 2rem;
+  font-size: 2.4rem;
+  color: $accent;
   margin-bottom: $s-2;
 }
 .value-item h4 { margin: 0; font-size: 1rem; }

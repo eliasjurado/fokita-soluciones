@@ -1,5 +1,5 @@
 - id: plomeria
-  icon: "🔧"
+  icon: "plumbing"
   nombre:
     es: "Plomeria"
     en: "Plumbing"
@@ -11,7 +11,7 @@
     en: "From S/ 50"
 
 - id: electricidad
-  icon: "⚡"
+  icon: "bolt"
   nombre:
     es: "Electricidad"
     en: "Electrical"
@@ -23,7 +23,7 @@
     en: "From S/ 60"
 
 - id: pintura
-  icon: "🎨"
+  icon: "format_paint"
   nombre:
     es: "Pintura"
     en: "Painting"
@@ -35,7 +35,7 @@
     en: "From S/ 8/m2"
 
 - id: carpinteria
-  icon: "🪚"
+  icon: "carpenter"
   nombre:
     es: "Carpinteria"
     en: "Carpentry"
@@ -47,7 +47,7 @@
     en: "From S/ 100"
 
 - id: limpieza
-  icon: "✨"
+  icon: "cleaning_services"
   nombre:
     es: "Limpieza"
     en: "Cleaning"
@@ -59,7 +59,7 @@
     en: "From S/ 80"
 
 - id: mudanzas
-  icon: "📦"
+  icon: "local_shipping"
   nombre:
     es: "Mudanzas"
     en: "Moving"
@@ -71,7 +71,7 @@
     en: "From S/ 150"
 
 - id: ensamble
-  icon: "🔩"
+  icon: "build"
   nombre:
     es: "Ensamblaje de muebles"
     en: "Furniture assembly"
@@ -83,7 +83,7 @@
     en: "From S/ 40"
 
 - id: mantenimiento
-  icon: "🏠"
+  icon: "home_repair_service"
   nombre:
     es: "Mantenimiento general"
     en: "General maintenance"
