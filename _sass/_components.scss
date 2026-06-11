@@ -168,9 +168,15 @@
 .hero {
   background: linear-gradient(135deg, $bg-dark 0%, darken($ink, 5%) 100%);
   color: #fff;
-  padding: $s-9 $s-5;
+  padding: $s-8 $s-5;
   text-align: center;
-  @media (min-width: $bp-md) { padding: 7rem $s-5; }
+  @media (min-width: $bp-md) { padding: 6rem $s-5; }
+}
+.hero__grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $s-5;
 }
 .hero h1 {
   color: #fff;
@@ -190,6 +196,28 @@
   gap: $s-4;
   justify-content: center;
   flex-wrap: wrap;
+}
+.hero__mascot {
+  flex: 0 0 auto;
+  img {
+    display: block;
+    width: 160px;
+    height: auto;
+    filter: drop-shadow(0 12px 24px rgba(0,0,0,0.35));
+  }
+}
+@media (min-width: $bp-md) {
+  .hero { text-align: left; }
+  .hero__grid {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: $s-7;
+  }
+  .hero__copy { flex: 1; }
+  .hero h1, .hero p { margin-inline: 0; }
+  .hero__actions { justify-content: flex-start; }
+  .hero__mascot img { width: 280px; }
 }
 .hero .btn--outline {
   color: #fff;

@@ -5,17 +5,22 @@ description: Profesionales confiables para reparacion, mantenimiento y mejoras d
 ---
 
 <section class="hero">
-  <div class="container">
-    <h1 data-i18n="hero.title">Tu hogar en buenas manos</h1>
-    <p data-i18n="hero.subtitle">Profesionales confiables para reparacion, mantenimiento y mejoras del hogar. Reserva en minutos.</p>
-    <div class="hero__actions">
-      <a href="https://wa.me/{{ site.contact.whatsapp }}?text={{ site.whatsapp_messages.hero | url_encode }}"
-         class="btn btn--accent btn--lg" target="_blank" rel="noopener" data-i18n="hero.cta">
-        Solicitar servicio
-      </a>
-      <a href="{{ '/services/' | relative_url }}" class="btn btn--outline btn--lg" data-i18n="hero.cta_secondary">
-        Ver servicios
-      </a>
+  <div class="container hero__grid">
+    <div class="hero__copy">
+      <h1 data-i18n="hero.title">Tu hogar en buenas manos</h1>
+      <p data-i18n="hero.subtitle">Profesionales confiables para reparacion, mantenimiento y mejoras del hogar. Reserva en minutos.</p>
+      <div class="hero__actions">
+        <a href="https://wa.me/{{ site.contact.whatsapp }}?text={{ site.whatsapp_messages.hero | url_encode }}"
+           class="btn btn--accent btn--lg" target="_blank" rel="noopener" data-i18n="hero.cta">
+          Solicitar servicio
+        </a>
+        <a href="{{ '/services/' | relative_url }}" class="btn btn--outline btn--lg" data-i18n="hero.cta_secondary">
+          Ver servicios
+        </a>
+      </div>
+    </div>
+    <div class="hero__mascot">
+      <img src="{{ '/assets/images/mascota-fokita.png' | relative_url }}" alt="Mascota de Fokita Soluciones" width="330" height="616">
     </div>
   </div>
 </section>
