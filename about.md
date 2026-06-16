@@ -11,7 +11,7 @@ description: Conoce Fokita Soluciones. Profesionales confiables para el mantenim
     <p data-i18n="about_page.intro">Fokita Soluciones es una empresa de servicios para el hogar fundada por Jhonatan Lopez Carrion con una mision clara: conectar hogares con profesionales confiables que resuelvan sus necesidades de manera rapida, transparente y con garantia.</p>
   </div>
   <div class="intro-mascot__img">
-    <img src="{{ '/assets/images/mascota-planos.png' | relative_url }}" alt="Mascota de Fokita con planos" width="338" height="443" loading="lazy">
+    <img src="{{ '/assets/images/mascota-planos.png' | relative_url }}" alt="Mascota de Fokita con planos" width="312" height="438" loading="lazy">
   </div>
 </div>
 

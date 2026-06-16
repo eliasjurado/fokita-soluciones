@@ -20,10 +20,10 @@
   &:hover { background: lighten($ink, 10%); color: #fff; }
 }
 .btn--accent {
-  background: $accent;
+  background: $btn;
   color: $on-accent;
   font-weight: 700;
-  &:hover { background: $accent-hover; color: $on-accent; }
+  &:hover { background: $btn-hover; color: $on-accent; }
 }
 .btn--outline {
   background: transparent;
@@ -243,7 +243,7 @@
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  background: $accent;
+  background: $btn;
   color: $on-accent;
   font-size: 1.5rem;
   font-weight: 800;
@@ -309,7 +309,7 @@
 .cta-section {
   text-align: center;
   padding: $s-8 $s-5;
-  background: $accent;
+  background: $btn;
   color: $on-accent;
   h2 { color: $on-accent; }
   p { color: rgba(26,39,68,0.85); font-size: 1.1rem; margin-bottom: $s-5; }

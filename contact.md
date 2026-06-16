@@ -11,7 +11,7 @@ description: Contacta a Fokita Soluciones. WhatsApp, telefono y correo electroni
     <p class="text-muted" data-i18n="contact_page.subtitle">Estamos listos para ayudarte. Elige el canal que prefieras.</p>
   </div>
   <div class="intro-mascot__img">
-    <img src="{{ '/assets/images/mascota-saluda.png' | relative_url }}" alt="Mascota de Fokita saludando" width="273" height="446" loading="lazy">
+    <img src="{{ '/assets/images/mascota-saluda.png' | relative_url }}" alt="Mascota de Fokita saludando" width="282" height="437" loading="lazy">
   </div>
 </div>
 
