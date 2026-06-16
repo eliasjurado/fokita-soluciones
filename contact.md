@@ -45,4 +45,4 @@ description: Contacta a Fokita Soluciones. WhatsApp, telefono y correo electroni
   </div>
 </div>
 
-<script src="/assets/js/i18n.js" defer></script>
+<script src="{{ '/assets/js/i18n.js' | relative_url }}" defer></script>

@@ -55,3 +55,20 @@ small, .text-sm { font-size: 0.875rem; color: $muted; }
 }
 
 ::selection { background: $accent; color: #fff; }
+
+// ── Accesibilidad (checklist UI/UX) ────────────────────────────────────────────
+:focus-visible {
+  outline: 3px solid $ink;
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+button, [role="button"], .btn, summary, [data-lang] { cursor: pointer; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

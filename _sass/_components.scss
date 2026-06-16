@@ -137,11 +137,14 @@
 
 .site-nav__toggle {
   display: none;
+  align-items: center;
+  justify-content: center;
   background: none;
   border: none;
-  font-size: 1.5rem;
+  color: $ink;
   cursor: pointer;
   padding: $s-1;
+  line-height: 0;
 }
 
 .site-nav--mobile {
@@ -160,7 +163,7 @@
 @media (max-width: $bp-md) {
   .site-nav { display: none; }
   .header-cta { display: none; }
-  .site-nav__toggle { display: block; }
+  .site-nav__toggle { display: inline-flex; }
   .lang-toggle:not(.lang-toggle--mobile) { display: none; }
 }
 

@@ -49,4 +49,4 @@ description: Conoce Fokita Soluciones. Profesionales confiables para el mantenim
   </div>
 </section>
 
-<script src="/assets/js/i18n.js" defer></script>
+<script src="{{ '/assets/js/i18n.js' | relative_url }}" defer></script>

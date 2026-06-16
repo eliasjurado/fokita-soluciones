@@ -107,13 +107,17 @@
     lookup: lookup
   };
 
-  document.addEventListener('DOMContentLoaded', function () {
+  var inited = false;
+  function init() {
+    if (inited) return;
+    inited = true;
     bindToggle();
     applyLang(detectLang());
-  });
+  }
 
-  if (document.readyState !== 'loading') {
-    bindToggle();
-    applyLang(detectLang());
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
   }
 })();

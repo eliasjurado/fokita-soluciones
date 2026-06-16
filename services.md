@@ -37,4 +37,4 @@ description: Plomeria, electricidad, pintura, carpinteria, limpieza, mudanzas y 
   </div>
 </section>
 
-<script src="/assets/js/i18n.js" defer></script>
+<script src="{{ '/assets/js/i18n.js' | relative_url }}" defer></script>
