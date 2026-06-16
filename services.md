@@ -11,7 +11,7 @@ description: Plomeria, electricidad, pintura, carpinteria, limpieza, mudanzas y 
     <p class="text-muted" data-i18n="services_page.subtitle">Soluciones profesionales para cada necesidad de tu hogar</p>
   </div>
   <div class="intro-mascot__img">
-    <img src="{{ '/assets/images/mascota-construye.png' | relative_url }}" alt="Mascota de Fokita construyendo" width="287" height="275" loading="lazy">
+    <img src="{{ '/assets/images/mascota-construye.png' | relative_url }}" alt="Mascota de Fokita construyendo" width="296" height="447" loading="lazy">
   </div>
 </div>
 

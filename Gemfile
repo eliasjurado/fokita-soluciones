@@ -1,11 +1,10 @@
 source "https://rubygems.org"
 
-gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll', '~> 3.9'
 gem 'webrick'
 gem 'csv'
 gem 'bigdecimal'
-
-group :jekyll_plugins do
-  gem 'jekyll-seo-tag'
-  gem 'jekyll-sitemap'
-end
+gem 'base64'
+gem 'kramdown-parser-gfm'
+gem 'jekyll-seo-tag'
+gem 'jekyll-sitemap'
