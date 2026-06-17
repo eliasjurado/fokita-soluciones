@@ -17,12 +17,13 @@ description: Plomeria, electricidad, pintura, carpinteria, limpieza, mudanzas y 
 
 <div class="services-grid" style="margin-top: 2rem;">
   {%- for servicio in site.data.servicios -%}
-  <div class="service-card">
+  {%- capture wa_text -%}Hola Fokita Soluciones, me interesa el servicio de {{ servicio.nombre.es }}. Me gustaria mas informacion.{%- endcapture -%}
+  <a class="service-card" href="https://wa.me/{{ site.contact.whatsapp }}?text={{ wa_text | url_encode }}" target="_blank" rel="noopener" aria-label="Consultar por WhatsApp: {{ servicio.nombre.es }}">
     <div class="service-card__icon"><span class="material-symbols-rounded">{{ servicio.icon }}</span></div>
     <h3 data-i18n-en-html="{{ servicio.nombre.en }}">{{ servicio.nombre.es }}</h3>
     <p data-i18n-en="{{ servicio.descripcion.en }}">{{ servicio.descripcion.es }}</p>
     <span class="service-card__price" data-i18n-en="{{ servicio.precio_desde.en }}">{{ servicio.precio_desde.es }}</span>
-  </div>
+  </a>
   {%- endfor -%}
 </div>
 
